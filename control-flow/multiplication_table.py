@@ -4,6 +4,6 @@ for i in range(1,11):
     y=i
     z=x*y
     print(x,"*",y,"=",z)
-    y+=1
+    
     
     
