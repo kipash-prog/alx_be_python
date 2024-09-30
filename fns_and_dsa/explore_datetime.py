@@ -12,3 +12,4 @@ if __name__ == "__main__":
     display_current_datetime()
     calculate_future_date()   
  
+#%Y-%m-%d\s*%H:%M:%S
