@@ -1,9 +1,13 @@
-# Temperature conversion constants (as functions)
+# Define conversion factors
+FAHRENHEIT_TO_CELSIUS_FACTOR = 5 / 9
+CELSIUS_TO_FAHRENHEIT_FACTOR = 9 / 5
+
+# Temperature conversion functions
 def convert_to_celsius(fahrenheit):
-    return (fahrenheit - 32) * 5 / 9  # Correctly convert Fahrenheit to Celsius
+    return (fahrenheit - 32) * FAHRENHEIT_TO_CELSIUS_FACTOR  # Convert Fahrenheit to Celsius
 
 def convert_to_fahrenheit(celsius):
-    return (celsius * 9 / 5) + 32  # Correctly convert Celsius to Fahrenheit
+    return (celsius * CELSIUS_TO_FAHRENHEIT_FACTOR) + 32  # Convert Celsius to Fahrenheit
 
 # Get user input
 temperature = input("Enter the temperature to convert: ")
