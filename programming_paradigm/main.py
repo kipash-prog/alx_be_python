@@ -14,7 +14,7 @@ def main():
         print(result)
 
     except ValueError:
-        print("Invalid input! Both numerator and denominator must be numbers.")
+        print("Error: Please enter numeric values only.")
         sys.exit(1)
 
 if __name__ == "__main__":
