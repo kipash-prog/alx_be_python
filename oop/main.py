@@ -8,7 +8,6 @@ def main():
     paper_novel = PrintBook("The Catcher in the Rye", "J.D. Salinger", 234)
 
    
-    my_library.list_books()
 
 if __name__ == "__main__":
     main()
