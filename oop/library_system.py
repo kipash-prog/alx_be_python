@@ -43,7 +43,7 @@ class Library:
 
 library = Library()
 book = Book("Pride and Prejudice","Jane Austen")
-ebook = EBook("Snow Crash", " Neal Stephenson", 500)
+ebook = EBook("Snow Crash", "Neal Stephenson", 500)
 print_book = PrintBook("The Catcher in the Rye", "J.D. Salinger", 234)
 library.add_book(book)
 library.add_book(ebook)
