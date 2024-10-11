@@ -9,7 +9,7 @@ class Rectangle(Shape):
         self.width = width
         
     def area(self):
-        total = math.prod([self.length,self.width])
+        total = self.length * self.width
         return total
     
 class Circle(Shape):
